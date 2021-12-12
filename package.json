@@ -1,0 +1,31 @@
+{
+  "name": "testProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "gh-pages": "^3.2.3",
+    "sweetalert": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.10",
+    "esbuild": "^0.14.2",
+    "esbuild-serve": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "node esbuild.config.js -w",
+    "build": "node esbuild.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozzq/testProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozzq/testProject/issues"
+  },
+  "homepage": "https://github.com/ozzq/testProject#readme"
+}

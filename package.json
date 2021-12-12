@@ -1,0 +1,24 @@
+{
+  "name": "testProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozzq/testProject.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ozzq/testProject/issues"
+  },
+  "homepage": "https://github.com/ozzq/testProject#readme",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}

@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://ozzq.github.io/testProject",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
@@ -18,7 +17,7 @@
   "bugs": {
     "url": "https://github.com/ozzq/testProject/issues"
   },
-  "homepage": "https://github.com/ozzq/testProject#readme",
+  "homepage": "https://ozzq.github.io/testProject",
   "devDependencies": {
     "gh-pages": "^3.2.3"
   }
